@@ -124,7 +124,7 @@ Designers and developers often struggle to create visually appealing color combi
 
 ### Color Role Assignment
 
-![Color Role](color-role.png)
+![Color Role](role.png)
 
 ## ⚙️ Installation
 
