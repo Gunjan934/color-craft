@@ -186,4 +186,4 @@ GitHub: https://github.com/Gunjan934
 ---
 
 
-### ⭐ If you found this project useful, consider giving it a star on GitHub! update to these screenshotes names 
+### ⭐ If you found this project useful, consider giving it a star on GitHub! 
