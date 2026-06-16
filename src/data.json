@@ -1,0 +1,581 @@
+{
+  "app": {
+    "name": "ColorCraft",
+    "tagline": "Pro",
+    "description": "Generate beautiful, professional color palettes with advanced color theory. Perfect for designers, developers, and creative professionals.",
+    "enableColorPaletteGenerator": true
+  },
+  "navigation": {
+    "links": [
+      { "id": "generator", "label": "Generator" },
+      { "id": "palettes", "label": "Palettes" },
+      { "id": "tools", "label": "Tools" },
+      { "id": "inspiration", "label": "Inspiration" },
+      { "id": "reviews", "label": "Reviews" }
+    ]
+  },
+  "hero": {
+    "badge": "✨ Professional Color Generation",
+    "title": "Create Stunning",
+    "titleGradient": "Color Palettes",
+    "description": "Generate beautiful, professional color palettes with advanced color theory. Perfect for designers, developers, and creative professionals.",
+    "buttons": {
+      "primary": "⚡ Generate Random Palette",
+      "secondary": "📥 Download"
+    }
+  },
+  "generator": {
+    "title": "🎨 Color Generator",
+    "randomButton": "🔄 Random",
+    "baseColorLabel": "Base Color",
+    "harmonyLabel": "Color Harmony",
+    "generateButton": "👁️ Generate Palette",
+    "rolesSection": {
+      "title": "Assign Color Roles",
+      "description": "Assign specific roles to your colors for better organization and usage.",
+      "summaryTitle": "Assigned Roles"
+    },
+    "disabledMessage": "🚧 Building Color Palette Generator..."
+  },
+  "palette": {
+    "title": "Your Palette",
+    "emptyState": {
+      "icon": "🎨",
+      "title": "No Palette Generated",
+      "description": "Generate your first color palette to see it here."
+    }
+  },
+  "preview": {
+    "title": "Live Preview",
+    "tabs": [
+      { "id": "website", "label": "🌐 Website", "icon": "🌐" },
+      { "id": "mobile", "label": "📱 Mobile App", "icon": "📱" },
+      { "id": "dashboard", "label": "📊 Dashboard", "icon": "📊" }
+    ],
+    "website": {
+      "url": "colorcraft.com",
+      "logo": "ColorCraft",
+      "navigation": ["Home", "About", "Services", "Contact"],
+      "hero": {
+        "title": "Welcome to ColorCraft",
+        "subtitle": "Professional Color Palette Generator",
+        "description": "Create stunning color combinations with AI-powered algorithms and proven color theory principles.",
+        "button": "Get Started"
+      },
+      "features": [
+        {
+          "title": "AI-Powered Generation",
+          "description": "Advanced algorithms create harmonious color combinations based on color theory principles.",
+          "icon": "⚡"
+        },
+        {
+          "title": "Live Preview",
+          "description": "See how your colors work together in real-time design mockups and templates.",
+          "icon": "👁️"
+        },
+        {
+          "title": "Export Options",
+          "description": "Download palettes in multiple formats for any design tool or development workflow.",
+          "icon": "📥"
+        },
+        {
+          "title": "Color Roles",
+          "description": "Assign semantic roles to colors for better design system organization.",
+          "icon": "🎨"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Sarah Chen",
+          "role": "UI/UX Designer",
+          "company": "TechFlow",
+          "text": "ColorCraft has revolutionized my design workflow. The AI suggestions are spot-on!",
+          "rating": 5
+        },
+        {
+          "name": "Marcus Rodriguez",
+          "role": "Frontend Developer",
+          "company": "StartupLab",
+          "text": "Perfect tool for creating consistent color systems. Love the export options!",
+          "rating": 5
+        }
+      ]
+    },
+    "mobile": {
+      "appName": "ColorCraft",
+      "statusBar": {
+        "time": "9:41",
+        "signal": "⚫⚫⚫",
+        "battery": "100%"
+      },
+      "cards": [
+        {
+          "title": "Trending Palettes",
+          "subtitle": "Discover popular color combinations",
+          "category": "Featured"
+        },
+        {
+          "title": "My Collections",
+          "subtitle": "Your saved color palettes",
+          "category": "Personal"
+        },
+        {
+          "title": "Color Theory",
+          "subtitle": "Learn about color harmonies",
+          "category": "Education"
+        }
+      ],
+      "buttons": [
+        "Generate Palette",
+        "Browse Gallery"
+      ],
+      "listItems": [
+        {
+          "title": "Sunset Vibes",
+          "subtitle": "Warm orange and pink tones",
+          "time": "2 hours ago"
+        },
+        {
+          "title": "Ocean Breeze",
+          "subtitle": "Cool blues and teals",
+          "time": "1 day ago"
+        },
+        {
+          "title": "Forest Path",
+          "subtitle": "Natural greens and browns",
+          "time": "3 days ago"
+        }
+      ]
+    },
+    "dashboard": {
+      "title": "Analytics Dashboard",
+      "sidebar": {
+        "title": "ColorCraft",
+        "navigation": [
+          { "label": "Overview", "active": true },
+          { "label": "Palettes", "active": false },
+          { "label": "Analytics", "active": false },
+          { "label": "Export", "active": false },
+          { "label": "Settings", "active": false }
+        ]
+      },
+      "stats": [
+        {
+          "label": "Total Palettes",
+          "value": "1,247",
+          "change": "+12%",
+          "icon": "🎨"
+        },
+        {
+          "label": "Downloads",
+          "value": "8,932",
+          "change": "+23%",
+          "icon": "📥"
+        },
+        {
+          "label": "Active Users",
+          "value": "2,156",
+          "change": "+8%",
+          "icon": "👥"
+        },
+        {
+          "label": "Favorites",
+          "value": "4,821",
+          "change": "+15%",
+          "icon": "❤️"
+        }
+      ],
+      "chart": {
+        "title": "Palette Generation Trends",
+        "subtitle": "Monthly palette creation statistics"
+      },
+      "recentActivity": [
+        {
+          "action": "New palette created",
+          "user": "Sarah Chen",
+          "time": "2 minutes ago",
+          "type": "create"
+        },
+        {
+          "action": "Palette downloaded",
+          "user": "Marcus Rodriguez",
+          "time": "5 minutes ago",
+          "type": "download"
+        },
+        {
+          "action": "Palette shared",
+          "user": "Emma Wilson",
+          "time": "12 minutes ago",
+          "type": "share"
+        }
+      ]
+    }
+  },
+  "features": {
+    "title": "Powerful Features for Professionals",
+    "subtitle": "Everything you need to create, manage, and share stunning color palettes for your design projects.",
+    "items": [
+      {
+        "icon": "⚡",
+        "iconColor": "yellow",
+        "title": "Instant Generation",
+        "description": "Generate beautiful color palettes in seconds with our advanced algorithms."
+      },
+      {
+        "icon": "🎨",
+        "iconColor": "pink",
+        "title": "Color Theory",
+        "description": "Based on proven color theory principles for harmonious combinations."
+      },
+      {
+        "icon": "👁️",
+        "iconColor": "blue",
+        "title": "Live Preview",
+        "description": "See how your colors work together in real-time design previews."
+      },
+      {
+        "icon": "📥",
+        "iconColor": "green",
+        "title": "Export Options",
+        "description": "Download palettes in multiple formats for any design tool or platform."
+      },
+      {
+        "icon": "🔗",
+        "iconColor": "indigo",
+        "title": "Easy Sharing",
+        "description": "Share palettes with your team or on social media instantly."
+      },
+      {
+        "icon": "✨",
+        "iconColor": "purple",
+        "title": "AI-Powered",
+        "description": "Leverage machine learning for intelligent color recommendations."
+      }
+    ]
+  },
+  "reviews": {
+    "title": "What Our Customers Say",
+    "subtitle": "Join thousands of designers and developers who trust ColorCraft for their color palette needs.",
+    "items": [
+      {
+        "id": 1,
+        "name": "Sarah Chen",
+        "role": "UI/UX Designer",
+        "company": "TechFlow",
+        "avatar": "👩‍💼",
+        "rating": 5,
+        "text": "ColorCraft has revolutionized my design workflow. The palette generation is intuitive and the results are always stunning!",
+        "date": "2 days ago"
+      },
+      {
+        "id": 2,
+        "name": "Marcus Rodriguez",
+        "role": "Frontend Developer",
+        "company": "StartupLab",
+        "avatar": "👨‍💻",
+        "rating": 5,
+        "text": "Perfect tool for creating consistent color systems. Love how easy it is to export and integrate into our projects!",
+        "date": "5 days ago"
+      },
+      {
+        "id": 3,
+        "name": "Emma Wilson",
+        "role": "Creative Director",
+        "company": "DesignStudio",
+        "avatar": "👩‍🎨",
+        "rating": 5,
+        "text": "The live preview feature is a game-changer. I can see exactly how colors work together before implementing them.",
+        "date": "1 week ago"
+      },
+      {
+        "id": 4,
+        "name": "James Thompson",
+        "role": "Product Designer",
+        "company": "InnovateCorp",
+        "avatar": "👨‍💼",
+        "rating": 5,
+        "text": "Best color palette generator I've used. The harmony options are extensive and the results are always professional.",
+        "date": "1 week ago"
+      },
+      {
+        "id": 5,
+        "name": "Olivia Martinez",
+        "role": "Brand Designer",
+        "company": "BrandCraft",
+        "avatar": "👩‍🎤",
+        "rating": 5,
+        "text": "Saves me hours of work. The color role assignment feature is brilliant and helps maintain design consistency.",
+        "date": "2 weeks ago"
+      },
+      {
+        "id": 6,
+        "name": "David Kim",
+        "role": "Web Developer",
+        "company": "CodeForge",
+        "avatar": "👨‍🔧",
+        "rating": 5,
+        "text": "The export functionality is seamless. It integrates perfectly with our design workflow and saves tons of time.",
+        "date": "2 weeks ago"
+      },
+      {
+        "id": 7,
+        "name": "Sophie Brown",
+        "role": "Art Director",
+        "company": "CreativeHub",
+        "avatar": "👩‍🎨",
+        "rating": 5,
+        "text": "Professional and intuitive. The gradient-based UI is stunning and makes working with colors a joy!",
+        "date": "3 weeks ago"
+      },
+      {
+        "id": 8,
+        "name": "Michael Chen",
+        "role": "Design Lead",
+        "company": "StudioX",
+        "avatar": "👨‍💼",
+        "rating": 5,
+        "text": "The color generation creates palettes I would never think of. It's expanded my design horizons significantly!",
+        "date": "3 weeks ago"
+      },
+      {
+        "id": 9,
+        "name": "Lisa Anderson",
+        "role": "UX Designer",
+        "company": "UserFirst",
+        "avatar": "👩‍💼",
+        "rating": 5,
+        "text": "Clean interface and powerful features. Highly recommend this to all designers working on digital projects.",
+        "date": "1 month ago"
+      },
+      {
+        "id": 10,
+        "name": "Robert Taylor",
+        "role": "Freelance Designer",
+        "company": "Independent",
+        "avatar": "👨‍🎨",
+        "rating": 5,
+        "text": "Game changer for my freelance work. Clients are always impressed with the professional color palettes I create.",
+        "date": "1 month ago"
+      },
+      {
+        "id": 11,
+        "name": "Jennifer Lee",
+        "role": "Product Manager",
+        "company": "TechVision",
+        "avatar": "👩‍💻",
+        "rating": 5,
+        "text": "Essential tool for our design system. The consistency and quality of color palettes is outstanding.",
+        "date": "1 month ago"
+      },
+      {
+        "id": 12,
+        "name": "Alex Garcia",
+        "role": "Graphic Designer",
+        "company": "VisualLab",
+        "avatar": "👨‍🎨",
+        "rating": 5,
+        "text": "The color theory implementation is spot on. This is a professional-grade tool that I use daily.",
+        "date": "1 month ago"
+      },
+      {
+        "id": 13,
+        "name": "Amanda White",
+        "role": "Brand Strategist",
+        "company": "BrandPro",
+        "avatar": "👩‍💼",
+        "rating": 5,
+        "text": "Perfect for creating brand color palettes. The results are always impressive and meet client expectations.",
+        "date": "2 months ago"
+      },
+      {
+        "id": 14,
+        "name": "Kevin Zhang",
+        "role": "UI Designer",
+        "company": "AppCraft",
+        "avatar": "👨‍💻",
+        "rating": 5,
+        "text": "The mobile preview is genius! Saves so much time in the design process and ensures mobile compatibility.",
+        "date": "2 months ago"
+      },
+      {
+        "id": 15,
+        "name": "Rachel Green",
+        "role": "Visual Designer",
+        "company": "CreativeMinds",
+        "avatar": "👩‍🎨",
+        "rating": 5,
+        "text": "Intuitive and powerful. The best color tool I've used in years. It's become an essential part of my workflow.",
+        "date": "2 months ago"
+      },
+      {
+        "id": 16,
+        "name": "Daniel Park",
+        "role": "Frontend Architect",
+        "company": "DevSolutions",
+        "avatar": "👨‍🔧",
+        "rating": 5,
+        "text": "Technical excellence meets design. Perfect for our development team and design system requirements.",
+        "date": "2 months ago"
+      },
+      {
+        "id": 17,
+        "name": "Maria Lopez",
+        "role": "Design Consultant",
+        "company": "DesignConsult",
+        "avatar": "👩‍💼",
+        "rating": 5,
+        "text": "Professional results every time. This tool pays for itself by streamlining my design process significantly.",
+        "date": "3 months ago"
+      },
+      {
+        "id": 18,
+        "name": "Thomas Wright",
+        "role": "Creative Technologist",
+        "company": "TechArt",
+        "avatar": "👨‍🎨",
+        "rating": 5,
+        "text": "The perfect blend of creativity and technology. Absolutely love the modern interface and smooth experience!",
+        "date": "3 months ago"
+      },
+      {
+        "id": 19,
+        "name": "Jessica Scott",
+        "role": "Digital Designer",
+        "company": "DigitalWorks",
+        "avatar": "👩‍💻",
+        "rating": 5,
+        "text": "Streamlined workflow and beautiful results. Can't imagine working without this tool in my design toolkit.",
+        "date": "3 months ago"
+      },
+      {
+        "id": 20,
+        "name": "Christopher Lee",
+        "role": "UI/UX Lead",
+        "company": "DesignForge",
+        "avatar": "👨‍💼",
+        "rating": 5,
+        "text": "Sets the standard for color palette tools. Simply outstanding in every aspect. A must-have for designers!",
+        "date": "3 months ago"
+      },
+      {
+        "id": 21,
+        "name": "Nicole Johnson",
+        "role": "Brand Designer",
+        "company": "BrandLab",
+        "avatar": "👩‍🎨",
+        "rating": 5,
+        "text": "Exceptional tool for brand development. The color harmony options help me create cohesive brand identities.",
+        "date": "4 months ago"
+      },
+      {
+        "id": 22,
+        "name": "William Davis",
+        "role": "Web Designer",
+        "company": "WebStudio",
+        "avatar": "👨‍💻",
+        "rating": 5,
+        "text": "The live preview feature is incredibly helpful. I can iterate quickly and see results immediately.",
+        "date": "4 months ago"
+      },
+      {
+        "id": 23,
+        "name": "Elizabeth Taylor",
+        "role": "Creative Director",
+        "company": "ArtVisions",
+        "avatar": "👩‍🎨",
+        "rating": 5,
+        "text": "Beautiful interface and powerful features. This tool has become essential to our creative process.",
+        "date": "4 months ago"
+      },
+      {
+        "id": 24,
+        "name": "Jonathan Moore",
+        "role": "UX Researcher",
+        "company": "UserInsights",
+        "avatar": "👨‍🔬",
+        "rating": 5,
+        "text": "Perfect for accessibility considerations. The color combinations ensure readability and usability.",
+        "date": "4 months ago"
+      },
+      {
+        "id": 25,
+        "name": "Amanda Foster",
+        "role": "Design Manager",
+        "company": "DesignCo",
+        "avatar": "👩‍💼",
+        "rating": 5,
+        "text": "Outstanding tool that our entire team uses. The consistency it brings to our design system is invaluable.",
+        "date": "4 months ago"
+      },
+      {
+        "id": 26,
+        "name": "Robert Martinez",
+        "role": "Product Designer",
+        "company": "InnovateHub",
+        "avatar": "👨‍🎨",
+        "rating": 5,
+        "text": "The gradient options are stunning! This tool has become my go-to for creating modern, vibrant designs.",
+        "date": "2 weeks ago"
+      },
+      {
+        "id": 27,
+        "name": "Sophie Anderson",
+        "role": "Digital Artist",
+        "company": "CreativeMinds",
+        "avatar": "👩‍🎨",
+        "rating": 5,
+        "text": "Absolutely love the color harmony features. It helps me create cohesive color stories for my digital artwork.",
+        "date": "1 week ago"
+      }
+    ]
+  },
+  "footer": {
+    "brand": {
+      "name": "ColorCraft",
+      "tagline": "Professional Color Palette Generator",
+      "description": "Create stunning color palettes with AI-powered algorithms and proven color theory principles. Perfect for designers, developers, and creative professionals."
+    },
+    "links": {
+      "features": {
+        "title": "Features",
+        "items": [
+          "Color Generator",
+          "Live Preview",
+          "Export Options",
+          "Color Theory"
+        ]
+      },
+      "support": {
+        "title": "Support",
+        "items": [
+          "Documentation",
+          "Help Center",
+          "Contact Us",
+          "Community"
+        ]
+      }
+    },
+    "bottom": {
+      "copyright": "© 2024 ColorCraft. All rights reserved.",
+      "tagline": "Made with ❤️ for designers worldwide"
+    }
+  },
+  "colorRoles": [
+    { "id": "primary", "label": "Primary", "description": "Main brand color" },
+    { "id": "secondary", "label": "Secondary", "description": "Supporting color" },
+    { "id": "accent", "label": "Accent", "description": "Highlight color" },
+    { "id": "background", "label": "Background", "description": "Page background" },
+    { "id": "surface", "label": "Surface", "description": "Card/panel background" },
+    { "id": "text", "label": "Text", "description": "Text color" },
+    { "id": "border", "label": "Border", "description": "Border color" },
+    { "id": "success", "label": "Success", "description": "Success state" },
+    { "id": "warning", "label": "Warning", "description": "Warning state" },
+    { "id": "error", "label": "Error", "description": "Error state" }
+  ],
+  "harmonyTypes": [
+    { "value": "analogous", "label": "Analogous" },
+    { "value": "complementary", "label": "Complementary" },
+    { "value": "triadic", "label": "Triadic" },
+    { "value": "monochromatic", "label": "Monochromatic" }
+  ]
+}
